@@ -12,7 +12,7 @@
 + 禁止将本主题转移到其他博客程序如typecho zblog等。
 
 ## 主题相关
-[演示地址](http://wpista.com)
+[演示地址](http://preview.fatesinger.com/?theme=Lion)
 
 [发布页](http://fatesinger.com/76846)
 
