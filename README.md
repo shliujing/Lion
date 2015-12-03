@@ -1,4 +1,13 @@
-# Mainline Version
+# WordPress 主题 lion
 
-开发版
 
+## 更新日志
+### 1.0.1
++ 优化代码结构方便维护
+
+## 主题相关
+[演示地址](http://preview.fatesinger.com/?theme=Lion)
+
+[发布页](http://fatesinger.com/76846)
+
+[功能介绍](http://wpista.com/themes/lion.html)

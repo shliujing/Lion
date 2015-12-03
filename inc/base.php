@@ -10,10 +10,8 @@ function lion_sns(){
 function lion_theme_scripts() {
     if(!is_admin()){
         $dir = get_template_directory_uri();
-        $title =get_bloginfo('name');
-        $timer = @filemtime(TEMPLATEPATH .'/main.css');
-        wp_enqueue_style('fancybox', $dir . '/static/css/main.css', array(), '1.17' , 'screen');
-        wp_enqueue_script( 'base', $dir . '/static/js/main.js' , array( 'jquery' ), '1.17', false);
+        wp_enqueue_style('fancybox', $dir . '/static/css/main.css', array(), LION_VERSION , 'screen');
+        wp_enqueue_script( 'base', $dir . '/static/js/main.js' , array( 'jquery' ), LION_VERSION , false);
         wp_localize_script('base', 'O_Connor', array(
             'admin_ajax_url' => admin_url('admin-ajax.php'),
             'order' => get_option('comment_order'),

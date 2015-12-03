@@ -2,10 +2,8 @@
     <main class="main-content row u-clearfix">
         <div class="layoutMultiColumn--primary"role="main">
             <div class="blockGroup">
-            <?php
-            while (have_posts()) : the_post();
-                ?>
-                    <?php get_template_part( 'content' );?>
+            <?php while (have_posts()) : the_post();?>
+                    <?php get_template_part( 'template-parts/content',get_post_format() );?>
             <?php endwhile;?>
         </div>
             <div class="u-textAlignCenter page-nav">
