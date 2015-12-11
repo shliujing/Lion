@@ -154,6 +154,9 @@ if ( function_exists( 'register_nav_menus' ) ) {
     );
 }
 
+add_theme_support( 'post-formats',array(
+        'status'
+        ));
 
 remove_filter('the_content', 'wptexturize');
 
